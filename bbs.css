@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
+    text-align: center;
+}
+
+h1 {
+    background-color:turquoise;
+    text-align: left;
+    padding: 10px;
+    opacity:0.8;
+}
+
+.button {
+    background-color: azure;
+    cursor: pointer;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.4);
+    
+}
+
+.button:active {
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+}
+
+.label {
+    position:relative;
+    right: 65px;
+    display: block;
+}
+
+.messageDetail {
+    background-color:white;
+    text-align: left;
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.replyMessageDetail {
+    background-color:rgba(255, 255, 255, 0.7);
+    text-align: left;
+    margin: 20px 80px 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: 60px;
+}
+
+h2 { 
+    background-color:skyblue;
+    text-align: left;
+    padding: 10px;
+    opacity:0.8;
+}
+
+.currentPage {
+    font-size: 15px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.back {
+    font-size: 24px;
+}
+
+.romMessage {
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
